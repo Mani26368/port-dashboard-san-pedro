@@ -1,0 +1,18 @@
+source,adresse,date_recuperation,contenu,statut
+Port of Los Angeles - page des statistiques,https://portoflosangeles.org/business/statistics/container-statistics,2026-11-19,"Volumes mensuels (EVP) : import, export, total. Vides = total - import - export (calculé)",utilisée
+Port of Los Angeles - Historical TEU Statistics 2019,https://portoflosangeles.org/Business/statistics/Container-Statistics/Historical-TEU-Statistics-2019,2026-11-19,Tableau mensuel 2019,utilisée
+Port of Los Angeles - Historical TEU Statistics 2020,https://portoflosangeles.org/Business/statistics/Container-Statistics/Historical-TEU-Statistics-2020,2026-11-19,Tableau mensuel 2020,utilisée
+Port of Los Angeles - Historical TEU Statistics 2021,https://portoflosangeles.org/Business/statistics/Container-Statistics/Historical-TEU-Statistics-2021,2026-11-19,Tableau mensuel 2021,utilisée
+Port of Los Angeles - Historical TEU Statistics 2022,https://portoflosangeles.org/Business/statistics/Container-Statistics/Historical-TEU-Statistics-2022,2026-11-19,Tableau mensuel 2022,utilisée
+Port of Los Angeles - Historical TEU Statistics 2023,https://portoflosangeles.org/Business/statistics/Container-Statistics/Historical-TEU-Statistics-2023,2026-11-19,Tableau mensuel 2023,utilisée
+Port of Los Angeles - Historical TEU Statistics 2024,https://portoflosangeles.org/Business/statistics/Container-Statistics/Historical-TEU-Statistics-2024,2026-11-19,Tableau mensuel 2024,utilisée
+Port of Los Angeles - Historical TEU Statistics 2025,https://portoflosangeles.org/Business/statistics/Container-Statistics/Historical-TEU-Statistics-2025,2026-11-19,Tableau mensuel 2025,utilisée
+Port of Los Angeles - Historical TEU Statistics 2026,https://portoflosangeles.org/Business/statistics/Container-Statistics/Historical-TEU-Statistics-2026,2026-11-19,Tableau mensuel 2026,utilisée
+Port of Long Beach - TEU Archive Since 1995 (CSV mensuel),https://www.polb.com/business/port-statistics/ (menu « TEUs Archive: 1987 to present by month »),2026-11-20,"Mensuel 1987-oct. 2026 : import (Loaded Inbound), export (Loaded Outbound), vides (Total Empties), total. Gardé : depuis 2019",utilisée
+CNUCED via Statista - temps médian au port 2021,https://statista.com/statistics/1101596/port-turnaround-times-by-country,2026-11-19,"États-Unis 1,25 j, Japon 0,36 j","utilisée ""utilisée (seule donnée CNUCED obtenue)"""
+UNCTADstat - profil maritime Djibouti,https://unctadstat.unctad.org/CountryProfile/MaritimeProfile/en-GB/262/index.html,2026-11-19,"Profil consulté : pas de section Port calls and performance (flotte, volumes conteneurs et connectivité seulement)",non disponible
+UNCTADstat - profil maritime États-Unis,https://unctadstat.unctad.org/CountryProfile/MaritimeProfile/en-GB/840/index.html,2026-11-19,Profil consulté : pas de section « Port calls and performance » non plus,non disponible
+aisstream.io,https://aisstream.io/documentation,a remplir au lancement du script,Navires en direct autour du port (clé gratuite),script scripts/fetch_ais.py
+Open-Meteo vent et rafales,https://open-meteo.com/en/docs,a remplir au lancement du script,Vent et rafales actuels et prévus,script scripts/fetch_meteo.py
+Open-Meteo vagues,https://open-meteo.com/en/docs/marine-weather-api,a remplir au lancement du script,Hauteur des vagues actuelle et prévue,script scripts/fetch_meteo.py
+"Banque mondiale et S&P Global - CPPI 2025, fichier Annex (xlsx)","https://openknowledge.worldbank.org (publication « The Container Port Performance Index 2025 », fichier Annex)",2026-11-19,Scores CPPI 2020-2025 et rang 2025 de 400 ports,utilisée
