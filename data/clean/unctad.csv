@@ -1,3 +1,7 @@
 pays,annee,indicateur,valeur,unite,note
 États-Unis,2021,temps médian au port (porte-conteneurs),1.25,jours,"via Statista, données CNUCED"
 Japon,2021,temps médian au port (porte-conteneurs),0.36,jours,"via Statista, données CNUCED"
+États-Unis,2023,nombre d'escales (porte-conteneurs),19418,escales,"UNCTADstat, tableau US.PortCallsArrivals (téléchargé le 20/11/2026)"
+Chine,2023,nombre d'escales (porte-conteneurs),80095,escales,"UNCTADstat, tableau US.PortCallsArrivals (téléchargé le 20/11/2026)"
+Japon,2023,nombre d'escales (porte-conteneurs),38360,escales,"UNCTADstat, tableau US.PortCallsArrivals (téléchargé le 20/11/2026)"
+Singapour,2023,nombre d'escales (porte-conteneurs),16854,escales,"UNCTADstat, tableau US.PortCallsArrivals (téléchargé le 20/11/2026)"

@@ -413,7 +413,8 @@ with right:
         st.dataframe(unctad[["pays", "annee", "indicateur", "valeur", "unite"]], hide_index=True,
                      width="stretch")
         if not (unctad["pays"] == "Djibouti").any():
-            st.info("Djibouti et le nombre d'escales : non disponibles (le profil pays UNCTADstat n'a pas de section « Port calls and performance »).")
+            st.info("Djibouti : non disponible. Le tableau d'escales de la CNUCED (UNCTADstat) ne publie pas Djibouti, "
+                    "et son profil pays n'a pas de section « Port calls and performance ».")
     st.caption("Attention : le CPPI est un score par port ; la CNUCED donne des chiffres par pays. "
                "Ce sont deux mesures différentes, à ne pas additionner ni mélanger.")
 

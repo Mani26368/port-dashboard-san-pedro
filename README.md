@@ -31,7 +31,7 @@ Si une source ne répond pas, le script garde l'ancien fichier et l'appli affich
 | Volumes de Los Angeles 2019-2026 | Site du Port of Los Angeles (pages Historical TEU Statistics) | Complet, repris le 19/11/2026 |
 | Volumes de Long Beach | Site du Port of Long Beach, fichier « TEU Archive Since 1995 » (téléchargé le 20/11/2026) | Complet : 2019 à octobre 2026 |
 | CPPI (score et rang) | Banque mondiale et S&P Global, fichier Annex du CPPI 2025 | Complet pour 8 ports, éditions 2024 et 2025 |
-| Escales et temps médian | CNUCED (UNCTADstat) | Très partiel : États-Unis et Japon 2021 |
+| Escales et temps médian | CNUCED (UNCTADstat) | Partiel : escales 2023 (4 pays) ; temps médian 2021 (2 pays) ; Djibouti absent |
 | Navires en direct | aisstream.io | Par script |
 | Vent, rafales, vagues | Open-Meteo | Par script |
 
@@ -61,7 +61,7 @@ Si une source ne répond pas, le script garde l'ancien fichier et l'appli affich
 - CPPI : les rangs et scores viennent du fichier Annex officiel (400 ports en 2025). Le rang 2025 est celui de l'annexe.
   Le rang 2024 est recalculé à partir des scores 2024 de l'annexe (403 ports, comme l'édition 2024). Les scores des années 2020 à 2023 existent dans l'annexe mais ne sont pas utilisés.
   Le score est comparable d'une année à l'autre : 0 = moyenne mondiale de 2024. Le CPPI mesure le temps des navires au port, pas le volume.
-- CNUCED : les profils pays d'UNCTADstat de Djibouti et des États-Unis (consultés le 19/11/2026) n'ont pas de section « Port calls and performance ». Le nombre d'escales et le temps médian pour Djibouti ne sont donc pas disponibles ; le tableau de bord l'indique. Seuls les États-Unis et le Japon (2021, via Statista, chiffres CNUCED) sont affichés. Ces chiffres se trouvent dans le Data Center UNCTADstat (non consulté, trop lourd sur téléphone).
+- CNUCED : Djibouti n'apparaît pas dans le tableau d'escales d'UNCTADstat (US.PortCallsArrivals, 87 lignes, téléchargé le 20/11/2026), et son profil pays n'a pas de section « Port calls and performance ». Le nombre d'escales et le temps médian de Djibouti sont donc indisponibles ; le tableau de bord l'indique. Affichés : nombre d'escales de porte-conteneurs 2023 (États-Unis, Chine, Japon, Singapour) et temps médian 2021 (États-Unis, Japon, via Statista). Le tableau du temps médian de la CNUCED n'a pas été obtenu.
 - Long Beach : le site polb.com était bloqué (« Access Denied ») depuis Djibouti le 19/11/2026. Les données ont été téléchargées le 20/11/2026 via un VPN. Les vides de Long Beach = vides entrants + sortants.
 - La couverture AIS gratuite peut être faible, surtout loin de Los Angeles : le nombre de navires est un minimum.
 - La prévision est une extrapolation des mois passés : elle ne connaît ni les grèves, ni les droits de douane, ni les crises.
